@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forum | RC Uçak & Drone Danışmanlığı</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#F1FAEE;color:#1B1F3B;margin:0}
+    .container{max-width:980px;margin:0 auto;padding:24px}
+    a.btn{display:inline-block;padding:10px 16px;border-radius:12px;background:#E63946;color:#fff;text-decoration:none;font-weight:700}
+    h1{color:#E63946}
+    .card{background:#fff;border-radius:16px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.06);margin:16px 0}
+    .tip{font-size:14px;opacity:.75}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="btn" href="index.html">← Ana sayfa</a>
+    <h1>Topluluk Forumu</h1>
+    <p>Teknofest hazırlığı, RC uçak & drone, PID, donanım ve uçuş videoları hakkında soru & paylaşımlar.</p>
+
+    <!-- Giscus kodunu buraya yapıştır -->
+    <script src="https://giscus.app/client.js"
+            data-repo="amk579/ucusdanismani-forum"
+            data-repo-id="BURAYA_GELECEK"
+            data-category="General"
+            data-category-id="BURAYA_GELECEK"
+            data-mapping="pathname"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="light"
+            data-lang="tr"
+            crossorigin="anonymous"
+            async>
+    </script>
+
+    <div class="card tip">
+      <p><b>Not:</b> Forum GitHub Discussions altyapısını kullanır. Yorum yapabilmek için GitHub hesabıyla giriş yapmanız gerekir.</p>
+    </div>
+  </div>
+</body>
+</html>
